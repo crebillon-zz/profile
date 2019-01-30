@@ -1,0 +1,142 @@
+body{
+  background-color: #fcfcfc;
+  font-family: 'Lato', sans-serif;
+  color: #1C1C1C;
+  font-size: 16px;
+}
+
+.container {
+  width: 775px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+/*CATEGORIES*/
+.presentation {
+  padding: 20px;
+  margin: 20px;
+}
+
+.social-icons {
+  color: #0F0F0F;
+  margin: 20px;
+  padding: 20px;
+}
+
+.recipes {
+  text-align: justify;
+  padding: 20px;
+  margin: 20px;
+}
+
+.about-page {
+  margin: 20px;
+  padding: 20px;
+
+}
+
+.border {
+  border-radius: 3px;
+  border: solid;
+  border-color: #fdfdfd;
+  border: 1px;
+  background: #ffffff;
+  box-shadow: 2px 2px 3px #E8E8E8;
+}
+
+/*TITLES*/
+h1, h2, h3 {
+  color: #0F0F0F;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+/*BUTTONS*/
+a {
+  text-decoration: none;
+  color: #234B8B;
+}
+
+a:hover {
+  color: #2C5DAD;
+}
+
+.main-btn {
+  color: white;
+  background-color: #5899E2;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 4px;
+  display: inline-block; /* Allow button to be considered as a block */
+  margin-top: 5px;
+}
+
+.main-btn:hover {
+  background-color: #67A2E4;
+  color: white;
+}
+
+/*IMAGES*/
+.profile-img {
+  border-radius: 200px;
+  height: 200px;
+}
+
+.recipe-img {
+  height: 200px;
+}
+
+/*LISTS*/
+.list-horizontal{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-horizontal li {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/*OTHERS*/
+.text-center{
+  text-align: center;
+}
+
+
+/*
+Title
+font-family: 'Roboto', sans-serif;
+
+P
+font-family: 'Lato', sans-serif;
+*/
